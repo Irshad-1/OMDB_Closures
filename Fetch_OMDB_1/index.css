@@ -1,0 +1,167 @@
+*{
+    font-family:'sans-serif';
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #DEB6AB;
+}
+#navbar{
+   
+
+    margin-top: 1.5em;
+}
+#navbar >h1{
+    color: white;
+    text-align: center;
+}
+body{
+    margin: 0px;
+}
+form{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    margin: 30px auto;
+}
+form >input{
+    font-size: 35px;
+    margin-left: 10px;
+    border-radius: 3px;
+    width:70%;
+    border: 0px;
+}
+form >input[type="submit"]{
+    
+    width:20%;
+    background-color: #F8ECD1;
+}
+#movies{
+    position: absolute;
+    width:28%;
+    display: block;
+    top:15%;
+    left: 30.5%;
+    height:400px;
+   overflow-y: scroll;
+   background-color: white;
+}
+#movies >div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border: 1px solid rgb(222, 217, 217);
+    cursor: pointer;
+}
+#movies>div>img{
+    width:4em;
+}
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color:#85586F;
+    margin-bottom: 50px;
+}
+#card-container{
+    padding: 0.5px;
+    
+    max-width:1368px;
+    margin: auto;
+    width: 50%;
+}
+#card-container>img{
+    width: 100%;
+}
+#card{
+    width:100%;
+    margin: auto;
+    display: flex;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+#imageContainer{
+    width:40%;
+}
+#imageContainer img{
+    width: 100%;
+    height: 100%;
+}
+#OuterDescription{
+    width:60%;
+    background-color: #7FB5FF;
+    color:#001D6E;
+    
+}
+/* #description{
+    margin: 20px;
+} */
+#recommend{
+    background-color: green;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+#description >.box{
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    margin-top: 2em;
+    margin-bottom:2em;
+}
+#description >h1{
+    text-align: center;
+}
+@media all and (min-width:86px) and (max-width:450px) {
+    
+    #navbar{
+        width: 100%;
+    }
+    form{
+        width: 100%;
+    }
+    form>input{
+        font-size: 15px;
+    }
+    #card-container{
+        width: 100%;
+    }
+    #card{
+        width: 100%;
+    }
+    #imageContainer{
+        width:100%;
+    }
+    #OuterDescription{
+        width:100%;
+    }
+    #description >h4{
+        font-size: 15px;
+    }
+
+    #description >h1{
+        font-size: 15px;
+    }
+    #description p{
+        font-size: 10px;
+    }
+    #movies{
+        width:80%;
+        left:2%;
+       top:27%;
+        height:250px;
+       overflow-y: scroll;
+       background-color: white;
+    }
+    #movies>div>img{
+        width:2.5em;
+    }
+    #movies h4{
+        font-size: smaller;
+    }
+}
