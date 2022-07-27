@@ -22,7 +22,7 @@ HTML and CSS: Hypertext Markup Language and Cascading Style Sheets are two of th
 JavaScript (DOM): The Document Object Model, defines the logical structure of documents and the way a document is accessed and manipulated. With the Document Object Model, Developers can create and build documents, navigate their structure, and add, modify, or delete elements and content. Anything found in an HTML document can be accessed, changed, deleted, or added using the DOM.
 
 Fetch (API) : Fetch provides a generic definition of Request and Response objects (and other things involved with network requests). This will allow them to be used wherever they are needed in the future, whether it's for service workers, Cache API, and other similar things that handle or modify requests and responses, or any kind of use case that might require you to generate your responses programmatically (that is, the use of computer program or personal programming instructions).
-
+# Screen captures of project
 # Landing Page:
 ![image](https://user-images.githubusercontent.com/53389729/181341634-e5897d37-1a5e-4b91-b820-4e5d4ca02e72.png)
 
